@@ -1,0 +1,43 @@
+PS C:\Users\BVCOEW\Desktop\3328> git --version
+git version 2.54.0.windows.1
+
+PS C:\Users\BVCOEW\Desktop\3328> git init
+Initialized empty Git repository in C:/Users/BVCOEW/Desktop/3328/.git/
+
+PS C:\Users\BVCOEW\Desktop\3328> git add .
+
+PS C:\Users\BVCOEW\Desktop\3328> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   trial.py
+        new file:   tsp.py
+
+PS C:\Users\BVCOEW\Desktop\3328> git commit -m "Initial Commit"
+[master (root-commit) 36c92f3] Initial Commit
+ 2 files changed, 51 insertions(+)
+ create mode 100644 trial.py
+ create mode 100644 tsp.py
+
+PS C:\Users\BVCOEW\Desktop\3328> git status                    
+On branch master
+nothing to commit, working tree clean
+
+PS C:\Users\BVCOEW\Desktop\3328> git branch -M main
+
+PS C:\Users\BVCOEW\Desktop\3328> git remote add origin https://github.com/SnehaGogawale/WADpractical.git
+
+PS C:\Users\BVCOEW\Desktop\3328> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 711 bytes | 711.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/SnehaGogawale/WADpractical.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
